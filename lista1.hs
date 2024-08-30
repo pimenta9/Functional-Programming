@@ -1,8 +1,8 @@
 -- 2
-triangulo a b c = a + b > c && a + c > b && b + c > a
+isTriangle a b c = a + b > c && a + c > b && b + c > a
 
 -- 4
-metades l = (take m l, drop m l)
+divideList l = (take m l, drop m l)
     where m = (length l) `div` 2
 
 -- 5 (a)
