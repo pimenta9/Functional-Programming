@@ -1,3 +1,5 @@
+-- VERIFICADOR DE TAUTOLOGIAS
+
 import Data.List (nub)
 
 data Prop   = Const Bool
